@@ -24,3 +24,14 @@ section {
 	border: 1px solid var(--coral);
 	flex: 1;
 }
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo-img {
+	width: 40px;
+	margin-right: 10px;
+}
