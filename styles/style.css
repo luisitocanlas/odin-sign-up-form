@@ -1,3 +1,9 @@
+.barlow-regular {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 :root {
 	--tufts-blue: #3c91e6;
 	--raisin-black: #342e37;
@@ -16,7 +22,7 @@ body {
 	background-color: var(--raisin-black);
 	color: var(--baby-powder);
 	display: flex;
-
+	font-family: 'Barlow', sans-serif;
 	height: 100%;
 }
 
