@@ -1,0 +1,12 @@
+:root {
+	--tufts-blue: #3c91e6;
+	--raisin-black: #342e37;
+	--yellow-green: #a2d729;
+	--baby-powder: #fafffd;
+	--coral: #fa824c;
+}
+
+body {
+	background-color: var(--raisin-black);
+	color: var(--baby-powder);
+}
