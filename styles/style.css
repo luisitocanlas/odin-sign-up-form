@@ -114,6 +114,11 @@ form {
 	border-radius: 5px;
 }
 
+.input-group {
+	display: flex;
+	flex-direction: column;
+}
+
 .input-div {
 	display: inline-block;
 	vertical-align: top;
