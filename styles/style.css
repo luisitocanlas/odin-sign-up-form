@@ -129,6 +129,10 @@ input:focus {
 	outline: 2px solid var(--tufts-blue);
 }
 
+input:invalid {
+	outline: 2px solid var(--coral);
+}
+
 .bottom {
 	padding-top: 50px;
 	font-size: 20px;
