@@ -28,6 +28,11 @@ body {
 	height: 100%;
 }
 
+input,
+button {
+	border: none;
+}
+
 section.left {
 	flex: 1;
 }
@@ -89,7 +94,7 @@ form {
 
 .form-div {
 	flex: 1;
-	padding: 20px 60px;
+	padding: 20px 80px;
 	display: flex;
 	flex-direction: column;
 }
@@ -105,16 +110,23 @@ form {
 
 .middle input {
 	width: 240px;
+	height: 25px;
+	border-radius: 5px;
 }
 
 .input-div {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 40px;
+	margin-bottom: 30px;
 }
 
 .input-div label {
-	margin-bottom: 5px;
+	display: block;
+}
+
+input:focus {
+	outline: 2px solid var(--tufts-blue);
 }
 
 .bottom {
